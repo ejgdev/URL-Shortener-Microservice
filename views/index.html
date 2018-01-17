@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Backend Challenges | Free Code Camp</title>
+      <link rel="shortcut icon" href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico" type="image/x-icon"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+      <link href="/public/style.css" rel="stylesheet" type="text/css">
+   </head>
+
+  <body>
+        <div class="container">
+            <h1 class="header">
+                API Basejump: URL Shortener Microservice
+            </h1>
+            <blockquote>
+              <h4>User stories:</h4>
+                <ul>1) I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.</ul>
+                <ul>2) If I pass an invalid URL that doesn't follow the valid http://www.example.com format, the JSON response will contain an error instead.</ul>
+                <ul>3) When I visit that shortened URL, it will redirect me to my original link.</ul>
+            </blockquote>
+            <h3>Example usage:</h3>
+            <code>https://fossil-quality.glitch.me/new/https://www.google.com/</code><br>
+            <code>https://fossil-quality.glitch.me/new/https://www.website-name.com/</code><br>
+            <br>Keep in mind to put <strong>/new/</strong> for create a short url and also <strong>https://</strong>. Otherwise you will get an error.
+            <h3>Example output:</h3>
+            <code>
+                { 
+                  "original_url":"https://www.google.com/", 
+                  "short_url":"https://fossil-quality.glitch.me/dQBNWh6" 
+                }
+            </code>
+            <h3>Example Usage:</h3>
+            <code>https://fossil-quality.glitch.me/dQBNWh6</code>
+            <h3>Will redirect to:</h3>
+          <code>https://www.google.com/</code>
+        </div>
+    </body>
+
+</html>
