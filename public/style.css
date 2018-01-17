@@ -1,0 +1,46 @@
+/****** Main Styling ******/
+
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  line-height: 1.42857143;
+  color: #333;
+	background-color: #ECF0F1;
+	text-align: left;
+}
+
+.container {
+  width: 750px;
+	padding: 0;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+	margin-top: 40px;
+}
+
+.div {
+    display: block;
+}
+
+.footer {
+	margin-top: 60px;
+}
+
+ol {
+	list-style-position: inside;
+}
+ul {
+	list-style-type: none;
+  text-align: left;
+}
+
+a {
+	color: #2574A9;
+}
+/****** Logo Div Styling ******/
+
+img {
+	margin: 20px auto 0 auto;
+	display: block;
+}
